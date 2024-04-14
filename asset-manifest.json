@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/online-music-streaming-project/static/css/main.b3c3d4c4.css",
+    "main.css": "/online-music-streaming-project/static/css/main.3551088f.css",
     "main.js": "/online-music-streaming-project/static/js/main.3485c217.js",
     "static/js/787.c4e9e552.chunk.js": "/online-music-streaming-project/static/js/787.c4e9e552.chunk.js",
     "index.html": "/online-music-streaming-project/index.html",
-    "main.b3c3d4c4.css.map": "/online-music-streaming-project/static/css/main.b3c3d4c4.css.map",
+    "main.3551088f.css.map": "/online-music-streaming-project/static/css/main.3551088f.css.map",
     "main.3485c217.js.map": "/online-music-streaming-project/static/js/main.3485c217.js.map",
     "787.c4e9e552.chunk.js.map": "/online-music-streaming-project/static/js/787.c4e9e552.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c3d4c4.css",
+    "static/css/main.3551088f.css",
     "static/js/main.3485c217.js"
   ]
 }
