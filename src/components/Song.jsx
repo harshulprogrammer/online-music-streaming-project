@@ -4,15 +4,21 @@ const Song = ({ fn, song }) => {
   };
   return (
     <>
-      <div className="row">
-        <div className="col-3">
-          <img alt="music pic" src={song.artworkUrl100} />
+      <div className="one-song">
+        <div>
+          <img
+            className="song-image"
+            alt="music pic"
+            src={song.artworkUrl100}
+          />
         </div>
-        <div className="col-4">
-          {song.artistName} {song.trackName}
+        <div className="music-name">
+          <br />
+          <b>{song.trackName}</b> - {song.artistName}
         </div>
-        <div className="col-4">
-          <button className="btn btn-primary" onClick={showPlayer}>
+        <div>
+          <br />
+          <button className="btn btn-dark play-btn" onClick={showPlayer}>
             Play Song
           </button>
         </div>

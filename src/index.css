@@ -1,0 +1,268 @@
+.song-image {
+  height: 6.9rem;
+  width: 7rem;
+  border-radius: 11px;
+  margin: 1rem;
+  border: 3px solid black;
+}
+
+.one-song {
+  display: flex;
+  box-shadow: 1px 1px 3px 0.1px black;
+  border-radius: 10px;
+  margin: 0 0 0.6rem 1rem;
+  width: 50rem;
+  transition: transform 0.2s;
+}
+
+.one-song:hover {
+  box-shadow: none;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  transform: scale(1.02);
+}
+
+.music-name {
+  width: 19rem;
+  margin: 0 3rem;
+}
+
+.nav-design {
+  background-color: orangered;
+}
+
+.nav-button {
+  margin-left: 2rem;
+  font-size: 17px;
+  color: white;
+}
+
+.nav-options {
+  text-decoration: none;
+}
+
+.nav-look {
+  padding: 0.8rem;
+}
+.search-input {
+  width: 57rem;
+}
+.search-portion {
+  margin-top: 4rem;
+}
+
+progress {
+  width: 28rem;
+  height: 2rem;
+}
+
+.progress-bar {
+  margin: 13.9rem 6rem 6rem 2rem;
+  position: fixed;
+  box-shadow: 1px 1px 3px 0.1px black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.main-home {
+  display: flex;
+}
+.progress-word {
+  text-align: left;
+}
+.top-music {
+  padding-bottom: 1rem;
+}
+
+.music-player {
+  margin: 5rem 0 0 1rem;
+}
+
+.music-play {
+  position: relative;
+  left: 36%;
+  top: 50%;
+  box-shadow: 1px 1px 3px 0.1px black;
+  border-radius: 1rem;
+  width: 28rem;
+  padding: 2rem;
+}
+
+.music-pic {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 11px;
+  margin: 1rem 0 0 6.7rem;
+  border: 3px solid black;
+}
+
+.track-name {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.music-play-heading {
+  margin-left: 6.2rem;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+audio {
+  margin-left: 2.4rem;
+}
+
+.brand-name {
+  color: white;
+}
+
+.complete-section {
+  margin-top: 4rem;
+}
+
+.pic {
+  height: 22rem;
+  width: 30rem;
+}
+
+.top-music-india {
+  box-shadow: 1px 1px 3px 0.1px black;
+  border-radius: 10px;
+  margin: 5rem 12rem;
+  padding: 1rem;
+}
+
+.top-music-list {
+  text-align: center;
+  padding: 1rem 0 2.5rem 0;
+}
+
+.music-data {
+  font-size: 1.4rem;
+  padding: 0 0 2rem 5rem;
+}
+
+.loader {
+  margin: 0 0 1rem 17rem;
+}
+.play-btn {
+  margin-left: 2rem;
+}
+.musix-logo {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 0.4rem;
+}
+
+@media (min-width: 0) and (max-width: 554px) {
+  .progress-bar {
+    display: none;
+  }
+
+  .search-input {
+    width: 20.5rem;
+  }
+
+  .one-song {
+    width: 20.5rem;
+    margin-left: 1rem;
+  }
+
+  .loader {
+    margin-left: 3rem;
+  }
+
+  .top-music-india {
+    margin: 5rem 0.5rem 5rem 0.5rem;
+    padding: 2rem;
+    width: 21.5rem;
+  }
+
+  .song-image {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .music-name {
+    font-size: 0.8rem;
+    width: 8rem;
+    margin: 0;
+  }
+  .play-btn {
+    margin: 0;
+    height: 2.5rem;
+    width: 5.3rem;
+    padding: 0;
+  }
+  .music-data {
+    padding: 1rem 0;
+  }
+
+  .music-play {
+    left: -1%;
+    width: 21rem;
+    padding: 1rem;
+  }
+  .music-play-heading {
+    margin-left: 3.6rem;
+  }
+  .music-pic {
+    margin: 0 0 0 4rem;
+  }
+  .track-name {
+    margin-top: 0.5rem;
+  }
+  audio {
+    margin-left: 0rem;
+  }
+}
+
+@media (min-width: 554px) and (max-width: 922px) {
+  .progress-bar {
+    display: none;
+  }
+  .search-input {
+    width: 50rem;
+  }
+  .one-song {
+    margin-right: 1rem;
+  }
+  .loader {
+    margin-left: 18rem;
+  }
+  .top-music-india {
+    margin-left: 1rem;
+  }
+  .music-data {
+    padding: 1rem 0;
+  }
+  .music-play {
+    left: 22%;
+  }
+  .one-song {
+  }
+}
+@media (min-width: 922px) and (max-width: 1144px) {
+  .progress-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 1144px) and (max-width: 1349px) {
+  .progress-bar {
+    width: 19rem;
+    height: 22rem;
+    margin-left: -7rem;
+  }
+  .top-music {
+    font-size: 1.3rem;
+  }
+  progress {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1349px) and (max-width: 1493px) {
+  .progress-bar {
+    margin-left: -7rem;
+  }
+}
